@@ -15,4 +15,4 @@ public interface ProductService {
     @GET("/ean/{upc}/")
     Call<List<Product>> listProduct(@Path("upc") String upc);
 
-}
+    }
